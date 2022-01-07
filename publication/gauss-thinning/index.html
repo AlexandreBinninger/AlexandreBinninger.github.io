@@ -8,7 +8,7 @@
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
 <meta name=author content="Alexandre Binninger">
-<meta name=description content="Approximating 3D shapes with piecewise developable surfaces is an active research topic, driven by the benefits of developable geometry in fabrication. Piecewise developable surfaces are characterized by having a Gauss image that is a 1D object -- a collection of curves on the Gauss sphere. We present a method for developable approximation that makes use of this classic definition from differential geometry. Our algorithm is an iterative process that alternates between thinning the Gauss image of the surface and deforming the surface itself to make its normals comply with the Gauss image. The simple, local-global structure of our algorithm makes it easy to implement and optimize. We validate our method on developable shapes with added noise and demonstrate its effectiveness on a variety of non-developable inputs. Compared to the state of the art, our method is more general, tessellation independent, and preserves the input mesh connectivity.">
+<meta name=description content="We present a method for approximating an input mesh with a piecewise developable surface by thinning its Gauss image. Using an iterative algorithm we are able to concentrate Gauss curvature on creases that naturally emerge over the course of the iterations.">
 <link rel=alternate hreflang=en-us href=https://example.com/publication/gauss-thinning/>
 <meta name=theme-color content="#1565c0">
 <script src=/js/mathjax-config.js></script>
@@ -26,11 +26,11 @@
 <meta property="og:site_name" content="Alexandre Binninger">
 <meta property="og:url" content="https://example.com/publication/gauss-thinning/">
 <meta property="og:title" content="Developable Approximation via Gauss Image Thinning | Alexandre Binninger">
-<meta property="og:description" content="Approximating 3D shapes with piecewise developable surfaces is an active research topic, driven by the benefits of developable geometry in fabrication. Piecewise developable surfaces are characterized by having a Gauss image that is a 1D object -- a collection of curves on the Gauss sphere. We present a method for developable approximation that makes use of this classic definition from differential geometry. Our algorithm is an iterative process that alternates between thinning the Gauss image of the surface and deforming the surface itself to make its normals comply with the Gauss image. The simple, local-global structure of our algorithm makes it easy to implement and optimize. We validate our method on developable shapes with added noise and demonstrate its effectiveness on a variety of non-developable inputs. Compared to the state of the art, our method is more general, tessellation independent, and preserves the input mesh connectivity."><meta property="og:image" content="https://example.com/publication/gauss-thinning/featured.png">
+<meta property="og:description" content="We present a method for approximating an input mesh with a piecewise developable surface by thinning its Gauss image. Using an iterative algorithm we are able to concentrate Gauss curvature on creases that naturally emerge over the course of the iterations."><meta property="og:image" content="https://example.com/publication/gauss-thinning/featured.png">
 <meta property="twitter:image" content="https://example.com/publication/gauss-thinning/featured.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2017-01-01T00:00:00+00:00">
+<meta property="article:published_time" content="2022-01-01T00:00:00+00:00">
 <meta property="article:modified_time" content="2021-07-01T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://example.com/publication/gauss-thinning/"},"headline":"Developable Approximation via Gauss Image Thinning","image":["https://example.com/publication/gauss-thinning/featured.png"],"datePublished":"2017-01-01T00:00:00Z","dateModified":"2021-07-01T00:00:00Z","author":{"@type":"Person","name":"Alexandre Binninger"},"publisher":{"@type":"Organization","name":"Alexandre Binninger","logo":{"@type":"ImageObject","url":"https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"Approximating 3D shapes with piecewise developable surfaces is an active research topic, driven by the benefits of developable geometry in fabrication. Piecewise developable surfaces are characterized by having a Gauss image that is a 1D object -- a collection of curves on the Gauss sphere. We present a method for developable approximation that makes use of this classic definition from differential geometry. Our algorithm is an iterative process that alternates between thinning the Gauss image of the surface and deforming the surface itself to make its normals comply with the Gauss image. The simple, local-global structure of our algorithm makes it easy to implement and optimize. We validate our method on developable shapes with added noise and demonstrate its effectiveness on a variety of non-developable inputs. Compared to the state of the art, our method is more general, tessellation independent, and preserves the input mesh connectivity."}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://example.com/publication/gauss-thinning/"},"headline":"Developable Approximation via Gauss Image Thinning","image":["https://example.com/publication/gauss-thinning/featured.png"],"datePublished":"2022-01-01T00:00:00Z","dateModified":"2021-07-01T00:00:00Z","author":{"@type":"Person","name":"Alexandre Binninger"},"publisher":{"@type":"Organization","name":"Alexandre Binninger","logo":{"@type":"ImageObject","url":"https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"We present a method for approximating an input mesh with a piecewise developable surface by thinning its Gauss image. Using an iterative algorithm we are able to concentrate Gauss curvature on creases that naturally emerge over the course of the iterations."}</script>
 <title>Developable Approximation via Gauss Image Thinning | Alexandre Binninger</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=3433c4018d29e74bc5da2d921e03e4a9>
@@ -121,11 +121,17 @@ July 2021
 </span>
 </div>
 <div class="btn-links mb-3">
+<a class="btn btn-outline-primary btn-page-header" href=/publication/gauss-thinning/gauss-thinning.pdf target=_blank rel=noopener>
+PDF
+</a>
 <a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/gauss-thinning/cite.bib>
 Cite
 </a>
 <a class="btn btn-outline-primary btn-page-header" href=https://github.com/FloorVerhoeven/DevelopableApproximationViaGaussImageThinning target=_blank rel=noopener>
 Code
+</a>
+<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=k0RVs_FKYd4" target=_blank rel=noopener>
+Video
 </a>
 </div>
 </div>
@@ -184,6 +190,10 @@ Conference paper
 <div class=w-100><img alt=face src=/publication/gauss-thinning/face.gif loading=lazy data-zoomable></div>
 </div></figure>
 </p>
+</div>
+<div class=article-tags>
+<a class="badge badge-light" href=/tag/geometry-processing/>geometry processing</a>
+<a class="badge badge-light" href=/tag/developable-surface/>developable surface</a>
 </div>
 <div class=share-box>
 <ul class=share>
