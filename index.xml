@@ -9,7 +9,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Developable Approximation via Gauss Image Thinning</title><link>/publication/gauss-thinning/</link><pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate><guid>/publication/gauss-thinning/</guid><description>&lt;!---
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature</title><link>/publication/local_interpol_spline_mono_curvature/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>/publication/local_interpol_spline_mono_curvature/</guid><description>&lt;!---
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -22,6 +22,87 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
 --->
+&lt;div style="text-align: center">
+&lt;h5 id="comparison-table">Comparison table&lt;/h5>
+&lt;div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;a href="https://dl.acm.org/doi/10.1145/3400301" target="_blank" rel="noopener">Trigonometric Blending&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://dl.acm.org/doi/10.1145/3072959.3073692" target="_blank" rel="noopener">$\kappa$-curves&lt;/a>&lt;/td>
+&lt;td style="text-align:center">3-arcs clothoid&lt;/td>
+&lt;td style="text-align:center">clothoid-line-clothoid&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div style="text-align: right">&lt;sub>&lt;sup>(Open images in a new tab to display the .svg properly)&lt;/sup>&lt;/sub>&lt;div></description></item><item><title>Developable Approximation via Gauss Image Thinning</title><link>/publication/gauss-thinning/</link><pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate><guid>/publication/gauss-thinning/</guid><description>&lt;!---
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+--->
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser" srcset="
+/publication/gauss-thinning/teaser_huf6b6ab409583484f24bd7262f9e55239_862989_1d5651bb0f1d1117a5f47a4e678611a2.webp 400w,
+/publication/gauss-thinning/teaser_huf6b6ab409583484f24bd7262f9e55239_862989_6385fa83269a9679c83bba00949b5d8e.webp 760w,
+/publication/gauss-thinning/teaser_huf6b6ab409583484f24bd7262f9e55239_862989_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="/publication/gauss-thinning/teaser_huf6b6ab409583484f24bd7262f9e55239_862989_1d5651bb0f1d1117a5f47a4e678611a2.webp"
+width="760"
+height="194"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="video">Video&lt;/h2>
+&lt;div style="text-align: center">
+&lt;iframe width="600" height="400"
+src="https://www.youtube.com/embed/watch?v=k0RVs_FKYd4&amp;list=PLUykN3u3Z3NUz9kNy-d9bVOrZQVz0T8Yb">
+&lt;/iframe>
+&lt;/div>
 &lt;h2 id="animation">Animation&lt;/h2>
 &lt;p>
 &lt;figure >

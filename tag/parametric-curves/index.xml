@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>parametric curves | Alexandre Binninger</title><link>/tag/parametric-curves/</link><atom:link href="/tag/parametric-curves/index.xml" rel="self" type="application/rss+xml"/><description>parametric curves</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alexandre Binninger</copyright><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>parametric curves</title><link>/tag/parametric-curves/</link></image><item><title>Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature</title><link>/publication/local_interpol_spline_mono_curvature/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>/publication/local_interpol_spline_mono_curvature/</guid><description>&lt;!---
+&lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+--->
+&lt;div style="text-align: center">
+&lt;h5 id="comparison-table">Comparison table&lt;/h5>
+&lt;div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;a href="https://dl.acm.org/doi/10.1145/3400301" target="_blank" rel="noopener">Trigonometric Blending&lt;/a>&lt;/td>
+&lt;td style="text-align:center">&lt;a href="https://dl.acm.org/doi/10.1145/3072959.3073692" target="_blank" rel="noopener">$\kappa$-curves&lt;/a>&lt;/td>
+&lt;td style="text-align:center">3-arcs clothoid&lt;/td>
+&lt;td style="text-align:center">clothoid-line-clothoid&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div style="text-align: right">&lt;sub>&lt;sup>(Open images in a new tab to display the .svg properly)&lt;/sup>&lt;/sub>&lt;div></description></item></channel></rss>
