@@ -11,6 +11,12 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
 --->
+&lt;h2 id="talk">Talk&lt;/h2>
+&lt;div style="text-align: center">
+&lt;iframe width="600" height="400"
+src="https://youtube.com/embed/t0I-pWYvDS8?t=11989">
+&lt;/iframe>
+&lt;/div>
 &lt;div style="text-align: center">
 &lt;h5 id="comparison-table">Comparison table&lt;/h5>
 &lt;div>
