@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandre Binninger</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Alexandre Binninger</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alexandre Binninger</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Alexandre Binninger</title><link>/</link></image><item><title>Example Talk</title><link>/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>/talk/example-talk/</guid><description>&lt;div class="alert alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandre Binninger</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Alexandre Binninger</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Alexandre Binninger</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Alexandre Binninger</title><link>/</link></image><item><title>Example Talk</title><link>/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>/talk/example-talk/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -37,8 +37,16 @@ src="https://youtube.com/embed/t0I-pWYvDS8?t=11989">
 &lt;th style="text-align:center">
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
-src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+&lt;div class="w-100" >&lt;img alt="teaser_blending.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_blending.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_kappa.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_kappa.svg"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/th>
@@ -53,16 +61,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;th style="text-align:center">
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
-src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/th>
-&lt;th style="text-align:center">
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
-src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+&lt;div class="w-100" >&lt;img alt="teaser_clotho_line.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_clotho_line.svg"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/th>

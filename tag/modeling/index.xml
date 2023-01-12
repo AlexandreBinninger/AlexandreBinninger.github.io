@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>modeling | Alexandre Binninger</title><link>/tag/modeling/</link><atom:link href="/tag/modeling/index.xml" rel="self" type="application/rss+xml"/><description>modeling</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Alexandre Binninger</copyright><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>modeling</title><link>/tag/modeling/</link></image><item><title>Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature</title><link>/publication/local_interpol_spline_mono_curvature/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>/publication/local_interpol_spline_mono_curvature/</guid><description>&lt;!---
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>modeling | Alexandre Binninger</title><link>/tag/modeling/</link><atom:link href="/tag/modeling/index.xml" rel="self" type="application/rss+xml"/><description>modeling</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Alexandre Binninger</copyright><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>modeling</title><link>/tag/modeling/</link></image><item><title>Smooth Interpolating Curves with Local Control and Monotone Alternating Curvature</title><link>/publication/local_interpol_spline_mono_curvature/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>/publication/local_interpol_spline_mono_curvature/</guid><description>&lt;!---
 &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -26,8 +26,16 @@ src="https://youtube.com/embed/t0I-pWYvDS8?t=11989">
 &lt;th style="text-align:center">
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
-src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+&lt;div class="w-100" >&lt;img alt="teaser_blending.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_blending.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/th>
+&lt;th style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="teaser_kappa.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_kappa.svg"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/th>
@@ -42,16 +50,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;th style="text-align:center">
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
-src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/th>
-&lt;th style="text-align:center">
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="teaser_3arcs.png"
-src="/publication/local_interpol_spline_mono_curvature/results/teaser_3arcs.svg"
+&lt;div class="w-100" >&lt;img alt="teaser_clotho_line.png"
+src="/publication/local_interpol_spline_mono_curvature/results/teaser_clotho_line.svg"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/th>
