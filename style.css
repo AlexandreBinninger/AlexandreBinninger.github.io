@@ -1,0 +1,370 @@
+body {
+    /* Add a linear gradient background */
+    background: linear-gradient(to bottom right, hsl(349,69%,37%), hsl(6,18%,22%));
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link{
+    color: hsl(349,69%,37%);
+  }
+
+  a:visited{
+    color: hsl(6,48%,32%);
+  }
+
+  a:focus{
+    color: hsl(0,80%,60%);
+  }
+
+  a:hover{
+    color: hsl(0,80%,60%);
+  }
+
+  a:active{
+    color: #5F7355;
+  }
+
+  p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color : hsl(6,18%,22%)
+  }
+
+  h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .carousel-image-container {
+    height: 300px; /* Adjust this value according to your desired height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-item img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+    padding: 10px;
+    padding-bottom: 100px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    /* max-height: 20%; */
+    width: auto;
+    background-color: rgba(159, 29, 53, .8);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+  }
+
+  .carousel-caption h5 {
+    color: white;
+    font-size: 1.0rem;
+  }
+  .carousel-caption h5 .details{
+    transition: color 0.3s ease;
+  }
+  .carousel-caption h5 .details:hover{
+    color: hsl(0,80%,60%);
+  }
+
+  .carousel-caption a{
+    color: white;
+  }
+
+  /* selector for the img with the src=mstile-310x310.png */
+  img[src$="mstile-310x310.png"] {
+    max-width: 200px;
+  }
+  
+  /* Add a white box to contain the page content */
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  #personal-picture{
+    max-width: 80%;  
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .copyright{
+    text-align: center;
+  }
+
+  .news h4{
+    text-align: center;
+  }
+  .news{
+    margin-top: 10px;
+  }
+
+  .bold-text {
+    font-weight: bold;
+}
+
+  .hobby-prefix,
+  .hobbies {
+    /* color: hsl(349,69%,37%); */
+    color: rgb(128, 0, 32);
+    font-family: monospace;
+    font-size: 1.25em;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+  
+  .hobbies::after {
+    content: '|';
+    animation: blinkingCursor 1s infinite;
+  }
+  
+  @keyframes blinkingCursor {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  
+  /* Style the header image */
+  .header-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  /* Style the page title */
+  .page-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .ul-edu {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .edu-logo {
+    width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .edu-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .edu-year {
+    font-size: 0.9em;
+    color:hsl(349, 29%, 46%);
+    margin-bottom: 0;
+  }
+
+  .institution {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .description {
+    width: calc(100% - 125px); /* Adjust the width to create space for the logo */
+  }
+
+  .bottom-align-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* height: 100%; Make sure the container takes up full height */
+}
+  
+  /* Style the publication list */
+  .publications-section {
+    margin-top: 20px;
+  }
+  
+  /* Style the publication items */
+  .publication-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  ul.network-icon{
+    padding-left: 0px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  ul.network-icon li{
+    display: inline;
+  }
+
+  /* About */
+
+  #about p{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+
+  /* Publications */
+
+#publications-section ul {
+    list-style: none;
+    padding: 0;
+}
+#publications-section ul li {
+    margin-bottom: 20px;
+}
+.publication {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+.publication img {
+    width: 100%;
+    max-width: 250px;
+    margin-right: 10px;
+    resize: both;
+}
+.publication img:hover {
+    border: hsl(349,69%,37%) 1px solid;
+    border-radius: 20%;
+}
+.publication-info {
+    flex-grow: 1;
+    max-width: calc(100% - 270px);
+}
+.publication-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.publication-year,
+.publication-conference,
+.publication-authors {
+    margin: 5px 0;
+}
+.publication-year{
+  color:hsl(349, 29%, 46%);
+  font-style: italic;
+}
+.publication-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.myself-author {
+    font-weight: bold;
+    color: hsl(6,18%,22%);
+}
+.publication-buttons .btn {
+    display: inline-block;
+    background-color: hsl(349,69%,37%);
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.publication-buttons .btn:hover {
+  /* background-color: hsl(6,18%,22%); */
+  background-color: hsl(0,80%,60%);
+}
+.publication-buttons .btn:active{
+  background-color: #5F7355;
+}
+
+#to-top{
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+  /* .edu-entry{
+    /* flex-direction: column;
+    align-items: center;
+    background-color: teal;
+  } */
+  .edu-entry {
+    display: block;
+    text-align: center;
+  }
+
+  .institution {
+    position: static;
+    display: inline-block;
+    margin-top: 0px;
+    /* margin-bottom: 5px; */
+  }
+
+  .description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .news{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+    .publication {
+        flex-direction: column;
+        align-items: center;
+    }
+    .publication img {
+        margin-bottom: 10px;
+    }
+    #about p{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .edu-entry {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      position: relative;
+      background-color: white;
+    }
+
+  .publication-info {
+    flex-grow: 1;
+    max-width: calc(100% - 0px);
+  }
+  
+}
+
