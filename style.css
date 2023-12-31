@@ -121,15 +121,21 @@ body {
     font-weight: bold;
 }
 
+.hobbies-section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 16px;
+  }
+
   .hobby-prefix,
   .hobbies {
     /* color: hsl(349,69%,37%); */
     color: rgb(128, 0, 32);
     font-family: monospace;
     font-size: 1.25em;
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
-    max-width: 100%;
+    white-space: nowrap;
+    /* overflow-wrap: break-word;
+    max-width: 100%; */
   }
   
   .hobbies::after {
@@ -221,14 +227,17 @@ body {
     padding-left: 0px;
     text-align: center;
     font-size: 2rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 1.0;
   }
 
   ul.network-icon li{
     display: inline;
   }
 
-  /* About */
 
+  /* About */
   #about p{
     padding-left: 100px;
     padding-right: 100px;
