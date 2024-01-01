@@ -374,6 +374,16 @@ body {
     flex-grow: 1;
     max-width: calc(100% - 0px);
   }
-  
+  .network-icon-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+      justify-content: center;
+  }
+  ul.network-icon {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0.2em;
+}
 }
 
