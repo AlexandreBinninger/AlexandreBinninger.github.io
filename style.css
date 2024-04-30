@@ -77,11 +77,31 @@ body {
     transition: color 0.3s ease;
   }
   .carousel-caption h5 .details:hover{
-    color: hsl(0,80%,60%);
+    color: hsl(0, 85%, 90%);
+  }
+
+  .carousel-caption a:link{
+    color: hsl(0, 0%, 88%);
+  }
+
+  .carousel-caption a:visited{
+    color: hsl(0, 0%, 88%);
+  }
+
+  .carousel-caption a:focus{
+    color: hsl(0, 85%, 90%);
+  }
+
+  .carousel-caption a:hover{
+    color: hsl(0, 85%, 90%);
+  }
+
+  .carousel-caption a:active{
+    color: #5F7355;
   }
 
   .carousel-caption a{
-    color: white;
+    text-decoration: underline;
   }
 
   /* selector for the img with the src=mstile-310x310.png */
@@ -275,7 +295,7 @@ body {
     max-width: calc(100% - 270px);
 }
 .publication-title {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -314,6 +334,14 @@ body {
 }
 .publication-buttons .btn:active{
   background-color: #5F7355;
+}
+
+.badge-mention{
+  background-color: #4CAF50;
+  color: white;
+  padding: 3px 6px;
+  margin-left: 10px;
+  border-radius: 5px;
 }
 
 #to-top{
