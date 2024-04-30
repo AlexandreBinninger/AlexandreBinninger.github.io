@@ -336,8 +336,16 @@ body {
   background-color: #5F7355;
 }
 
-.badge-mention{
+a.badge-mention{
   background-color: #4CAF50;
+  color: white;
+  padding: 3px 6px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+a.badge-mention:hover{
+  background-color: hsl(122, 39%, 75%);
   color: white;
   padding: 3px 6px;
   margin-left: 10px;
