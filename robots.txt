@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /private/
 Allow: /
 
-Sitemap: https://alexandrebinninger.com/sitemap.xml
+Sitemap: https://alexandrebinninger.com/sitemap-index.xml
